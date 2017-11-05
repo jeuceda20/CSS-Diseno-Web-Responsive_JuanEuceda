@@ -213,6 +213,29 @@
 				width: 80%;
 			}
 
+			#imagenp2, #imagenp4, #imagenp6{
+				-webkit-filter: grayscale(100%);
+				-moz-filter: grayscale(100%);
+				-ms-filter: grayscale(100%);
+				-o-filter: grayscale(100%);
+				filter: grayscale(100%);
+			}
+
+			#imagenp1 {
+				-webkit-filter: blur(10px);
+				-moz-filter: blur(10px);
+				-ms-filter: blur(10px);
+				-o-filter: blur(10px);
+  			filter: blur(10px);
+			}
+
+			#imagenp3 {
+				-webkit-filter: sepia(10px);
+				-moz-filter: sepia(10px);
+				-ms-filter: sepia(10px);
+				-o-filter: sepia(10px);
+  			filter: sepia(90%);
+			}
 
 @media (max-width: 1024px) {
 	.e1{
